@@ -34,11 +34,52 @@ CREATE TABLE IF NOT EXISTS hotel(
 );
 
 INSERT INTO hotel (hotel_name, member_of, rating, num_of_room, email, address, phone_num)
-	VALUES ('Kimpton Hotels', 'Kimpton Hotels & Restaurants', 4, 199, 'hiltonww@gmail.com', '1052 St George Street. British Columbia. Canada', '1-800-321-7654'),
-																								 
-	('Hilton Worldwide Hotels', 'Hilton Worldwide',5, 100, 'hiltonww@gmail.com', '3065 Duke Street. Quebec. Canada', '1-800-123-4567'),
-															 
-	('Accor Hotels', 'Accor S.A.', 4, 120, 'accordsa@gmail.com','1303 James Street. Ontario Canada', '1-800-456-7890')
+	VALUES 
+	('James Accord-SA','Accord-SA', 4, 120, 'accordsa_James@gmail.com','1303 James Street. Ontario Canada', '1-800-456-7890'),
+ 	('Wellington Accord-SA','Accord-SA', 5, 110, 'accordsa_wellington@gmail.com','230 Wellington Street. Ontario Canada', '1-800-458-9230'),
+ 	('Timothy Accord-SA', 5, 320, 'accordsa_Timothy@gmail.com','500 Timothy Street. Quebec Canada', '1-800-400-2234'),
+ 	('Harper Accord-SA', 3, 40, 'accordsa_harper@gmail.com',' 2300 Harper Street. Manitoba Canada', '1-800-396-7070'),
+ 	('York Accord-SA', 4, 509, 'accordsa_york@gmail.com','3 york Street. New Brunswick Canada', '1-800-935-7990'),
+ 	('King Accord-SA', 2, 25, 'accordsa_kingedward@gmail.com','12 King Edward Street. Ontario Canada', '1-800-600-8220'),
+ 	('Hill Accord-SA', 5, 550, 'accordsa_hill@gmail.com','1000 Hill Boulevard. British Colombia Canada', '1-800-500-2350'),
+ 	('Oakland Accord-SA', 3, 100, 'accordsa_oakland@gmail.com','5 Oakland Way. Nunavut Canada', '1-800-552-1982'),
+	
+	('hilton-worldwide', 5, 100, 'hiltonww@gmail.com', '3065 Duke Street. Quebec Canada', '1-800-123-4567'),
+ 	('Octa hilton-worldwide', 4, 80, 'hiltonww_octa@gmail.com', '8 Octa Street. Quebec Canada', '1-800-888-7987'),
+ 	('John hilton-worldwide', 3, 150, 'hiltonww_John@gmail.com', '306 John Street. Nova Scotia Canada', '1-800-122-9237'),
+ 	('Carling hilton-worldwide', 2, 180, 'hiltonww_carling@gmail.com', '65 Carling Street. Ontario Canada', '1-800-129-9807'),
+ 	('Piper hilton-worldwide', 3, 550, 'hiltonww_piper@gmail.com', '65 Piper Street. Quebec Canada', '1-800-113-4127'),
+ 	('David hilton-worldwide', 2, 170, 'hiltonww@gmail.com', '35 David Street. New Brunswick Canada', '1-800-122-7767'),
+	('Wall hilton-worldwide', 5, 100, 'hiltonww_wall@gmail.com', '5 wall Street. Quebec. Canada', '1-800-333-2567'),
+	('Elder hilton-worldwide', 5, 690, 'hiltonww_elder@gmail.com', '8 Elder Street. British Columbia Canada', '1-800-122-6333'),
+	
+	('George Kimpton Hotels & Restaurants', 4, 199, 'KHR_george@gmail.com', '1052 St George Street. British Columbia Canada', '1-800-321-7654'),
+	('Bell Kimpton Hotels & Restaurants', 5, 95, 'KHR_bell@gmail.com', '52 Bell Street. Ontario Canada', '1-800-331-7774'),
+	('Lincoln Kimpton Hotels & Restaurants', 1, 6, 'KHR_lincoln@gmail.com', '2 lincoln Drive. Quebec Canada', '1-800-333-8778'),
+	('Edgar Kimpton Hotels & Restaurants', 5, 535, 'KHR_edgar@gmail.com', '22 edgar Street. Ontario Canada', '1-800-931-9928'),
+	('Fisher Kimpton Hotels & Restaurants', 3,700, 'KHR_fisher@gmail.com', '7 Fisher Street. Ontario Canada', '1-800-833-4554'),
+	('Park Kimpton Hotels & Restaurants', 4, 455, 'KHR_park@gmail.com', '34 park Street. British Columbia Canada', '1-800-541-9874'),
+	('Club Kimpton Hotels & Restaurants', 3, 22, 'KHR_club@gmail.com', '8 Club Road. Manitoba Canada', '1-800-200-2974'),
+	('Algoma Kimpton Hotels & Restaurants', 4, 35, 'KHR_algoma@gmail.com', '400 Algoma Street. Alberta Canada', '1-800-555-6775'),
+	
+	
+	('Rocher marriott international', 5, 300, 'mariott_rocher@gmail.com', '80 Rocher Street. Ontario Canada', '1-800-888-7987'),
+	('Peter marriott international', 4, 700, 'mariott_peter@gmail.com', '345 Peter Street. British Columbia Canada', '1-800-700-4387'),
+	('Wood marriott international', 3, 555, 'mariott_wood@gmail.com', '65 Woodburn Street. Ontario Canada', '1-800-290-2087'),
+	('Daisy marriott international', 4, 700, 'mariott_daisy@gmail.com', '75  Daily Street. Ontario Canada', '1-800-100-9944'),
+	('Highland marriott international', 4, 780, 'mariott_highland@gmail.com', '5 Highland Street. Manitoba Canada', '1-800-110-5944'),
+	('Blackburn marriott international', 2, 15, 'mariott_blackburn@gmail.com', '20 Blackburn Street. Ontario Canada', '1-800-220-9224'),
+	('Rise marriott international', 1, 8, 'mariott_rise@gmail.com', '33 Rise Street. Nunavut Canada', '1-800-500-5344'),
+	('Bathgate marriott international', 5, 60, 'mariott_bathgate@gmail.com', '22 Bathgate Street. Ontario Canada', '1-800-999-9944'),
+	
+	('Sunshine Hyatt Hotels & Resorts', 2, 101, 'hyatthotelres_sunshine@gmail.com','3 Sunshine Street. Yukon Canada','1-800-969-9644'),
+	('Gate Hyatt Hotels & Resorts', 4, 200, 'hyatthotelres_gate@gmail.com','68 Gate Street. Yukon Canada','1-800-109-9646'),
+	('Mont Hyatt Hotels & Resorts', 3, 101, 'hyatthotelres_mont@gmail.com','25 Mont Street. Ontario Canada','1-800-966-5586'),
+	('Beaverpond Hyatt Hotels & Resorts', 3, 150, 'hyatthotelres_beaverpond@gmail.com','1512 Beaverpond Street. Ontario Canada','1-800-262-2654'),
+	('Hide Hyatt Hotels & Resorts', 5, 400, 'hyatthotelres_hide@gmail.com','100 Hide Street. Nova Scotia Canada','1-800-866-9954'),
+	('Hillary Hyatt Hotels & Resorts', 4, 111, 'hyatthotelres_hillary@gmail.com','22 Hillary Street. Yukon Canada','1-800-339-4454'),
+	('Nile Hyatt Hotels & Resorts', 5, 151, 'hyatthotelres_nile@gmail.com','2 Nile Street. Alberta Canada','1-800-239-9214'),
+	('Andy Hyatt Hotels & Resorts', 4, 101, 'hyatthotelres_andy@gmail.com','65 Andy Street. Yukon Canada','1-800-339-1128');
 
 CREATE TABLE IF NOT EXISTS employee(
 	employee_id int,
