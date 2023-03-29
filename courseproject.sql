@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS hotel(
 
 INSERT INTO hotel (hotel_name, member_of, rating, num_of_room, email, address, phone_num)
 	VALUES 
-INSERT INTO hotel (hotel_name,member_of,rating,num_of_room,email,phone_num,address)
+INSERT INTO VALUES hotel (hotel_name,member_of,rating,num_of_room,email,phone_num,address)
 ('Kimpton Hotels','Kimpton Hotels & Restaurants',4,199,'hiltonww@gmail.com','1-800-321-7654','1052 St George Street. British Columbia. Canada'),
 ('Hilton Worldwide Hotels','Hilton Worldwide',5,100,'hiltonww@gmail.com','1-800-123-4567','3065 Duke Street. Quebec. Canada'),
 ('Accor Hotels','Accor S.A.',4,120,'accordsa@gmail.com','1-800-456-7890','1303 James Street. Ontario Canada'),
