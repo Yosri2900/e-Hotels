@@ -34,52 +34,11 @@ CREATE TABLE IF NOT EXISTS hotel(
 );
 
 INSERT INTO hotel (hotel_name, member_of, rating, num_of_room, email, address, phone_num)
-	VALUES 
-INSERT INTO VALUES hotel (hotel_name,member_of,rating,num_of_room,email,phone_num,address)
-('Kimpton Hotels','Kimpton Hotels & Restaurants',4,199,'hiltonww@gmail.com','1-800-321-7654','1052 St George Street. British Columbia. Canada'),
-('Hilton Worldwide Hotels','Hilton Worldwide',5,100,'hiltonww@gmail.com','1-800-123-4567','3065 Duke Street. Quebec. Canada'),
-('Accor Hotels','Accor S.A.',4,120,'accordsa@gmail.com','1-800-456-7890','1303 James Street. Ontario Canada'),
-('James Accord-SA','Accor S.A.',4,120,'accordsa_James@gmail.com','1-800-456-7890','1303 James Street. Ontario Canada'),
-('Wellington Accord-SA','Accor S.A.',5,110,'accordsa_wellington@gmail.com','1-800-458-9230','230 Wellington Street. Ontario Canada'),
-('Timothy Accord-SA','Accor S.A.',5,320,'accordsa_Timothy@gmail.com','1-800-400-2234','500 Timothy Street. Quebec Canada'),
-('Harper Accord-SA','Accor S.A.',3,40,'accordsa_harper@gmail.com','1-800-396-7070',' 2300 Harper Street. Manitoba Canada'),
-('York Accord-SA','Accor S.A.',4,509,'accordsa_york@gmail.com','1-800-935-7990','3 york Street. New Brunswick Canada'),
-('King Accord-SA','Accor S.A.',2,25,'accordsa_kingedward@gmail.com','1-800-600-8220','12 King Edward Street. Ontario Canada'),
-('Hill Accord-SA','Accor S.A.',5,550,'accordsa_hill@gmail.com','1-800-500-2350','1000 Hill Boulevard. British Colombia Canada'),
-('Oakland Accord-SA','Accor S.A.',3,100,'accordsa_oakland@gmail.com','1-800-552-1982','5 Oakland Way. Nunavut Canada'),
-('Qubebec Hilton Worldwide','Hilton Worldwide',5,100,'hiltonww@gmail.com','1-800-123-4567','3065 Duke Street. Quebec Canada'),
-('Octa hilton-worldwide','Hilton Worldwide',4,80,'hiltonww_octa@gmail.com','1-800-888-7987','8 Octa Street. Quebec Canada'),
-('John hilton-worldwide','Hilton Worldwide',3,150,'hiltonww_John@gmail.com','1-800-122-9237','306 John Street. Nova Scotia Canada'),
-('Carling hilton-worldwide','Hilton Worldwide',2,180,'hiltonww_carling@gmail.com','1-800-129-9807','65 Carling Street. Ontario Canada'),
-('Piper hilton-worldwide','Hilton Worldwide',3,550,'hiltonww_piper@gmail.com','1-800-113-4127','65 Piper Street. Quebec Canada'),
-('David hilton-worldwide','Hilton Worldwide',2,170,'hiltonww@gmail.com','1-800-122-7767','35 David Street. New Brunswick Canada'),
-('Wall hilton-worldwide','Hilton Worldwide',5,100,'hiltonww_wall@gmail.com','1-800-333-2567','5 wall Street. Quebec. Canada'),
-('Elder hilton-worldwide','Hilton Worldwide',5,690,'hiltonww_elder@gmail.com','1-800-122-6333','8 Elder Street. British Columbia Canada'),
-('George Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',4,199,'KHR_george@gmail.com','1-800-321-7654','1052 St George Street. British Columbia Canada'),
-('Bell Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',5,95,'KHR_bell@gmail.com','1-800-331-7774','52 Bell Street. Ontario Canada'),
-('Lincoln Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',1,6,'KHR_lincoln@gmail.com','1-800-333-8778','2 lincoln Drive. Quebec Canada'),
-('Edgar Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',5,535,'KHR_edgar@gmail.com','1-800-931-9928','22 edgar Street. Ontario Canada'),
-('Fisher Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',3,700,'KHR_fisher@gmail.com','1-800-833-4554','7 Fisher Street. Ontario Canada'),
-('Park Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',4,455,'KHR_park@gmail.com','1-800-541-9874','34 park Street. British Columbia Canada'),
-('Club Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',3,22,'KHR_club@gmail.com','1-800-200-2974','8 Club Road. Manitoba Canada'),
-('Algoma Kimpton Hotels & Restaurants','Hyatt Hotels & Resorts',4,35,'KHR_algoma@gmail.com','1-800-555-6775','400 Algoma Street. Alberta Canada'),
-('Rocher marriott international','marriott international',5,300,'mariott_rocher@gmail.com','1-800-888-7987','80 Rocher Street. Ontario Canada'),
-('Peter marriott international','marriott international',4,700,'mariott_peter@gmail.com','1-800-700-4387','345 Peter Street. British Columbia Canada'),
-('Wood marriott international','marriott international',3,555,'mariott_wood@gmail.com','1-800-290-2087','65 Woodburn Street. Ontario Canada'),
-('Daisy marriott international','marriott international',4,700,'mariott_daisy@gmail.com','1-800-100-9944','75  Daily Street. Ontario Canada'),
-('Highland marriott international','marriott international',4,780,'mariott_highland@gmail.com','1-800-110-5944','5 Highland Street. Manitoba Canada'),
-('Blackburn marriott international','marriott international',2,15,'mariott_blackburn@gmail.com','1-800-220-9224','20 Blackburn Street. Ontario Canada'),
-('Bathgate marriott international','marriott international',5,60,'mariott_bathgate@gmail.com','1-800-999-9944','22 Bathgate Street. Ontario Canada'),
-('Rise marriott international','marriott international',4,100,'mariott_rise@gmail.com','1-800-500-5344','33 Rise Street. Nunavut Canada'),
-('Sunshine Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',2,101,'hyatthotelres_sunshine@gmail.com','1-800-969-9644','3 Sunshine Street. Yukon Canada'),
-('Gate Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',4,200,'hyatthotelres_gate@gmail.com','1-800-109-9646','68 Gate Street. Yukon Canada'),
-('Mont Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',3,101,'hyatthotelres_mont@gmail.com','1-800-966-5586','25 Mont Street. Ontario Canada'),
-('Beaverpond Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',3,150,'hyatthotelres_beaverpond@gmail.com','1-800-262-2654','1512 Beaverpond Street. Ontario Canada'),
-('Hide Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',5,400,'hyatthotelres_hide@gmail.com','1-800-866-9954','100 Hide Street. Nova Scotia Canada'),
-('Hillary Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',4,111,'hyatthotelres_hillary@gmail.com','1-800-339-4454','22 Hillary Street. Yukon Canada'),
-('Nile Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',5,151,'hyatthotelres_nile@gmail.com','1-800-239-9214','2 Nile Street. Alberta Canada'),
-('Andy Hyatt Hotels & Resorts','Hyatt Hotels & Resorts',4,101,'hyatthotelres_andy@gmail.com','1-800-339-1128','65 Andy Street. Yukon Canada');
-
+	VALUES ('Kimpton Hotels', 'Kimpton Hotels & Restaurants', 4, 199, 'hiltonww@gmail.com', '1052 St George Street. British Columbia. Canada', '1-800-321-7654'),
+																								 
+	('Hilton Worldwide Hotels', 'Hilton Worldwide',5, 100, 'hiltonww@gmail.com', '3065 Duke Street. Quebec. Canada', '1-800-123-4567'),
+															 
+	('Accor Hotels', 'Accor S.A.', 4, 120, 'accordsa@gmail.com','1303 James Street. Ontario Canada', '1-800-456-7890')
 
 CREATE TABLE IF NOT EXISTS employee(
 	employee_id int,
@@ -104,7 +63,7 @@ select * from employee;
 DELETE FROM customer;
 select * from customer;
 	
-DELETE FROM BOOKING WHERE booking_id=2180;DELETE FROM customer WHERE sin IN (SELECT customer_sin FROM booking WHERE booking_id=2180);
+-- DELETE FROM BOOKING WHERE booking_id=2180;DELETE FROM customer WHERE sin IN (SELECT customer_sin FROM booking WHERE booking_id=2180);
  
 CREATE TABLE IF NOT EXISTS customer(
 	sin VARCHAR(11),
@@ -126,9 +85,9 @@ CREATE TABLE IF NOT EXISTS customer_account(
 -- drop table customer_account;
 select * from customer_account;
 select * from customer;
--- DELETE FROM booking;
+DELETE FROM booking;
 select * from booking;
-DROP TABLE booking;
+-- DROP TABLE booking;
 CREATE TABLE IF NOT EXISTS booking (
 	booking_id int,
 	tdate VARCHAR(10),
@@ -170,28 +129,30 @@ INSERT INTO room(room_id, member_of, is_available, is_expandible, has_view, has_
 																								 
 			('663001002', 'Accor S.A.', 'false', 'true', 'true', 'true', 'false', 5, 'https://group.accor.com/-/media/Corporate/News-images/2019/09/18/201910-innovations-smartroom.jpg?version=1')
 INSERT INTO room(room_id, member_of, is_available, is_expandible, has_view, has_problems, has_amenities, capacity, room_img)
-	VALUES ('663001003', 'Accor S.A.', 'true', 'false', 'false', 'true', 'true', 5, 'https://media.istockphoto.com/id/843823656/photo/hotel-room.jpg?s=612x612&w=0&k=20&c=8-ZNA52e5GlPuuQPXqZRgsTO9WRZwZgFtDotyC6CGHY='),
-	('553200003', 'Kimpton Hotels & Restaurants', 'true', 'false', 'false', 'true', 'true', 3, 'https://www.thespruce.com/thmb/iMt63n8NGCojUETr6-T8oj-5-ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/PAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg')
-
+	VALUES 
+	('111111102', 'Accor S.A.', 'false', 'true', 'true', 'true', 'false',4, 'https://group.accor.com/-/media/Corporate/News-images/2019/09/18/201910-innovations-smartroom.jpg?version=1');
+	
 DROP TABLE renting;
-DROP TABLE archive;
+-- DROP TABLE archive;
+select * from renting;
+
 CREATE TABLE IF NOT EXISTS renting (
-	room_id VARCHAR(100),
 	period_of_time int,
-	customer_name VARCHAR(100),
+	customer_sin VARCHAR(11),
 	booking_id int
 	
 -- 	FOREIGN KEY (room_id) REFERENCES room(room_id),
 -- 	FOREIGN KEY (booking_id) REFERENCES booking(booking_id),
 );
 
-
-
+DELETE FROM archive;
+select * from archive;
 CREATE TABLE IF NOT EXISTS archive (
-	room_id VARCHAR(100),
+	booking_id int,
 	period_of_time int,
-	customer_name VARCHAR(100),
-	booking_id int
+	customer_sin VARCHAR(11),
+	employee_id int,
+	typ VARCHAR(7)
 
 -- 	FOREIGN KEY (room_id) REFERENCES room(room_id),
 -- 	FOREIGN KEY (booking_id) REFERENCES booking(booking_id),
@@ -207,3 +168,43 @@ CREATE TABLE IF NOT EXISTS archive (
 			
 SELECT * FROM booking, customer WHERE booking.customer_sin = customer.sin;
 DELETE FROM booking WHERE booking_id = 4468;
+SELECT * FROM booking WHERE booking_id = 2810;
+
+
+DELETE FROM room
+	WHERE room.room_id = '999999999';
+
+
+CREATE VIEW room_capacity_in_ontario AS
+SELECT h.hotel_name, SUM(r.capacity) AS total_capacity
+FROM hotel h
+JOIN room r ON h.hotel_name = r.member_of
+WHERE h.address LIKE '%Ontario%'
+GROUP BY h.hotel_name;
+
+SELECT * FROM room_capacity_in_ontario;
+--------------------------------
+
+
+CREATE VIEW available_rooms_try AS
+SELECT r.capacity, r.room_id
+FROM room r
+JOIN hotel h ON h.member_of = r.member_of
+WHERE h.hotel_name = 'Accor Hotels';
+
+
+SELECT * from available_rooms_try;
+
+		
+-- View 1 [DONE]
+CREATE VIEW available_rooms_in_ontario AS
+SELECT h.hotel_name, COUNT(r.room_id) AS num_available_rooms
+FROM hotel h
+JOIN room r ON h.member_of = r.member_of
+WHERE r.is_available = 'true' AND h.address LIKE '%Ontario%'
+GROUP BY h.hotel_name;
+
+SELECT * FROM available_rooms_in_ontario;
+
+
+		
