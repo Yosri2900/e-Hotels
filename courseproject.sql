@@ -207,4 +207,21 @@ GROUP BY h.hotel_name;
 SELECT * FROM available_rooms_in_ontario;
 
 
+--Filter 
+SELECT r.room_capacity, h.area, h.chain_id, h.star_rating, h.num_rooms, r.room_price, r.room_id
+FROM room r
+INNER JOIN hotel h ON r.hotel_id = h.hotel_id
+WHERE r.room_capacity >= 2 
+  AND h.area = 'Las Vegas'
+  AND h.chain_id = 4 
+  AND h.star_rating = 5 
+  AND h.num_rooms >= 3000  
+  AND r.room_price <= 200.00
+  AND r.room_id NOT IN (
+    SELECT b.room_id
+    FROM booking b
+    WHERE (checkin_date, checkout_date) OVERLAPS ('2023-08-10', '2023-08-15') 
+  );
+
+
 		
